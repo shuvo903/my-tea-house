@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,65 +10,119 @@
     <!-- google font cdn -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 
-<!-- font awsome cdn -->
+    <!-- font awsome cdn -->
 
-<script src="https://kit.fontawesome.com/759af94abf.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/759af94abf.js" crossorigin="anonymous"></script>
 
 
-<!-- tailwind cdn -->
+    <!-- tailwind cdn -->
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
 
 </head>
+
 <body>
     <!-- Maina container -->
-     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
-        <header class="flex pt-10 mb-20">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="lg:flex pt-10 mb-20">
             <div>
                 <!-- Text content -->
                 <h1 class="text-5xl md:text-7xl">It's good <br>
                     tea time at The<br> Tea House</h1>
-                    <br>
-                    <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                    <br>
-                    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold ">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+                <br>
+                <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                    Taste Buds.</p>
+                <br>
+                <button
+                    class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold ">Explore
+                    More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
             </div>
 
             <!-- image content -->
-             <div class="relative">
+            <div class="relative">
                 <!-- image -->
                 <div>
                     <img class="w-full" src="images/Hero Banner.png" alt="">
                 </div>
-                 <!-- card -->
-                 <div class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-80 md:left-32 lg:left-9">
+                <!-- card -->
+                <div
+                    class=" absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-80 md:left-32 lg:left-9">
                     <div class="text-2xl text-amber-500">
                         <!-- icon -->
                         <i class="fa-solid fa-star"></i>
-                     </div>
-                     <!-- text -->
-                     <div class="ml-2">
+                    </div>
+                    <!-- text -->
+                    <div class="ml-2">
                         <h2 class="lg:text-2xl font-bold">5.00</h2>
                         <p class="text-gray-500">Trust Pilot Ratings</p>
-                     </div>
-                 </div>
-             </div>
+                    </div>
+                </div>
+            </div>
         </header>
-     </main>
+
+
+        <!-- featured products section-->
+        <section class="py-8 lg:py-24">
+            <!-- title -->
+            <div class="text-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold mb-5 ">Our Featured Products</h1>
+                <p class="text-gray-300 mx-auto max-w-xl">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                    words which don't look even slightly believable. </p>
+            </div>
+            <!-- Grid card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  text-center">
+                <!--products card 1-->
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4 " src="images/tea-1.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold text-xl">Milk Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!--products card 2-->
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4 " src="images/tea-2.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold text-xl">Black Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!--products card 3 -->
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4 " src="images/tea-3.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold text-xl">Lemon Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!--products card 4 -->
+                <div class="rounded-lg shadow-md bg-gray-100 overflow-hidden">
+                    <img class="mx-auto pt-4 " src="images/tea-4.png" alt="">
+                    <div class="p-4">
+                        <h2 class="font-bold text-xl">Green Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 </body>
+
 </html>
